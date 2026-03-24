@@ -2,7 +2,7 @@ name: Women CAT1 – 3 group(s)
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Staggered daily run
+    - cron: '0 3 * * *'  # Staggered daily run at 3:00 AM UTC (adjust as needed)
   workflow_dispatch:
 
 jobs:
